@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 1000px;
+    flex: 1;
+}
+
+.container > div{
+    outline: 1px solid black;
+}
+
+.btnDiv {
+    display: flex;
+    justify-content: center;
+}
+
+.divContainer {
+    display: flex;
+    justify-content: center;
+}
